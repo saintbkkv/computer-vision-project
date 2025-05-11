@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+coverage/
+
+# TensorBoard logs
+runs/
+logs/
+
+# Environments and packages
+*.env
+*.venv
+.envrc
+
+# IDEs
+*.sublime-project
+*.sublime-workspace
+
+# Large files (optional)
+*.h5
+*.ckpt
+*.pth
+*.tflite
