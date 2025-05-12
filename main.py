@@ -77,14 +77,3 @@ prediction = model.predict(test_image)
 predicted_class = np.argmax(prediction)
 print(f"Predicted class: {class_names[predicted_class]}")
 
-# # Загрузим пользовательское изображение
-# image_path = 'your_image.jpg'
-# img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)  # Сразу в оттенках серого
-# img = cv2.resize(img, (28, 28))  # Изменим размер
-# img = img / 255.0  # Нормализация
-# img = np.expand_dims(img, axis=0)  # (1, 28, 28)
-
-# # Предсказание
-# prediction = model.predict(img)
-# predicted_class = np.argmax(prediction)
-# print(f"Предсказанный класс: {class_names[predicted_class]}")
