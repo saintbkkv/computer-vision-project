@@ -24,3 +24,6 @@ This project was developed as part of an academic assignment in artificial intel
 - Matplotlib / Seaborn
 - scikit-learn
 - Jupyter Notebook
+
+Dont forget to install libraries (in terminal):
+pip install -r requirements.txt
